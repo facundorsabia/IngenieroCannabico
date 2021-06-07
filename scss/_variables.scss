@@ -1,0 +1,20 @@
+//IF
+
+$color: green;
+
+p{
+    @if ($color == green) {
+        color:#013d04;
+    } @else {
+        color: black;
+    }
+}
+
+//FOR
+
+@for $i from 1 to 6{
+    h#{$i}{
+        font-size: (( $i * -1 ) + 5)rem;
+    }
+}
+

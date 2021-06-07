@@ -1,0 +1,77 @@
+
+
+.header__container{
+    padding:2rem;
+  }
+  
+  .header__container--product{
+    padding:2rem;
+    padding-bottom: 6rem;
+  }
+
+ .header__tittle{
+    color: #028b27;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+   } 
+
+.header__subtittle{
+    letter-spacing: 0.2rem;
+    font-size: 30px;
+    color: #c0ca33;
+    text-align: center;
+}
+
+
+   .header__tittle--product{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.15;
+    font-size: 72.5%;
+    color:#fafafa;
+    font-size: 40px;
+  }
+  
+  .header__text{
+    color: #0e0b0b;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Liberation Mono", sans-serif;
+    padding: 0.5rem;
+    font-weight: 400;
+  }
+
+  .header__text--span{
+    color: #00a02b;
+  }
+
+  //parallax
+
+
+.capamedia{
+position: relative;
+height: 100vh;
+background-image: url("../img/capamedia.png");
+background-attachment: fixed;
+border-bottom: solid 5px  rgb(2, 95, 2);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 2;
+}
+
+.capasuperior{
+position: absolute;
+height: 100vh;
+width: 100%;
+background-image: url("../img/capasuperior.png");
+border-bottom: solid 5px  rgb(2, 95, 2);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 80;
+}
+
+

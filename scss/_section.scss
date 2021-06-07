@@ -1,0 +1,149 @@
+/* Sections */
+
+
+
+/* Section About animated */
+
+
+
+/* Section */
+
+.section__container{
+  padding: 3rem 0rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.section__imgColumn{
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.section__img{
+  max-width: 100%;
+  height: auto;
+  transition:all .9s ease;
+}
+
+.section__img:hover{
+transform:scale(1.05);
+}
+
+.section__textColumn{
+  text-align: center;
+  padding: 0.5em;
+}
+
+/* Section Twitch*/
+
+.section__twitch{
+  width: 60%;
+}
+
+.section__twitchTextContainer{
+  padding: 3rem;
+}
+.section__twitchImg{
+  max-width: 100%;
+  height: auto;
+  border: solid  rgb(2, 95, 2);
+  border-radius: 3em;
+  transition:all .9s ease;
+}
+
+.section__twitchImg:hover{
+  transform:scale(1.05);
+  }
+
+.section__twitchText{
+ text-align: center;
+ color: #013d04;
+ font-size: 19px;
+ font-family: "Liberation Mono", sans-serif;
+ font-weight: 400;
+}
+
+.section__twitchText--link{
+ @extend .section__twitchText;
+ color: #c0ca33;
+ padding: 0.5rem;
+ list-style: none;
+}
+
+
+/* Section Mecha420 */
+
+  .mecha420{
+    text-align: center;
+    display: inline-block;
+    padding: 0.5em;
+    margin-left: 1em;
+    flex: 1;
+  }
+  
+/* Section Main Services*/
+
+.services__container{
+  padding: 2rem;
+}
+
+.services__tittle{
+padding: 0.5rem;
+font-weight: bold;
+text-align: left;
+font-size: 1.6rem;
+}
+
+.services__button{
+  background-color: #FF9800;
+  background-image: linear-gradient(160deg, #FF9800 0%, #E9C46A 100%);
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.services__button:hover {
+  color: #c0ca33;
+  text-decoration: none;
+}
+
+.services__button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  opacity: 0;
+  -webkit-transform: scaleX(0.8);
+  -ms-transform: scaleX(0.8);
+  transform: scaleX(0.8);
+  transition: all 0.3s ease-in;
+  z-index: -1;
+}
+.services__button:hover::after {
+  opacity: 1;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+/* About Main*/
+
+.about__text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.about__sub{
+ @extend .about__text ;
+  font-weight: 600;
+}

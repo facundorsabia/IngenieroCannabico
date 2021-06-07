@@ -1,0 +1,51 @@
+/* Caracteristicas Curso*/
+
+.caracteristicas__container{
+  padding-top: 2rem;
+}
+
+.caracteristicas__icon{
+  background-color: #c0ca33;
+}
+
+.caracteristicas__tittle{
+  font-size: 2.3rem;
+  padding: 1rem;
+  color:#f5f5f5;
+  text-shadow: -1px -1px 1px rgb(17, 172, 43), 1px -1px 1px rgb(68, 153, 11), -1px 1px 1px rgb(30, 87, 8), 1px 1px 1px #333;
+}
+
+.caracteristicas__textTittle{
+  font-size: 20px;
+  padding: 1rem;
+  color: rgb(2, 95, 2);
+}
+
+  /* Contenido del Curso */
+
+.contenido__box{
+    background-color: #c0ca33;
+
+  }
+  
+.contenido__column{
+  text-align: center;
+  padding: 2rem;
+}
+
+
+.contenido__tittle{
+  color: rgb(238, 238, 238);
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+
+.contenido__text{
+  color: #0e0b0b;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Liberation Mono", sans-serif;
+  padding: 0.5rem;
+  font-weight: 400;
+}
