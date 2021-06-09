@@ -140,10 +140,12 @@ p {
   font-weight: 800; }
 
 .banner p {
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 1.5rem; }
 
 .banner__tittle {
-  animation-duration: 2s; }
+  animation-duration: 2s;
+  font-size: 3rem; }
 
 .navbar {
   position: absolute;
@@ -870,7 +872,8 @@ button.btn.btn-link i {
   z-index: 2; }
 
 .capasuperior {
-  position: absolute;
+  transform: none !important;
+  position: relative;
   height: 100vh;
   width: 100%;
   background-image: url("../img/capasuperior.png");
@@ -954,7 +957,7 @@ a:hover {
   color: #FFFFFF;
   text-align: center;
   font-size: 23px;
-  width: 25rem;
+  width: 15rem;
   transition: all 0.5s;
   cursor: pointer;
   margin: 15px; }
