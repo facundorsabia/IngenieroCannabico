@@ -386,10 +386,9 @@ p {
   border-right: 1px solid #025f02; }
 
 /* Sections */
-/* Section About animated */
 /* Section */
 .section__container {
-  padding: 3rem 0rem;
+  padding: 3rem;
   align-items: center;
   justify-content: space-between; }
 
@@ -412,7 +411,8 @@ p {
 
 /* Section Twitch*/
 .section__twitch {
-  width: 60%; }
+  padding: 3rem;
+  text-align: center; }
 
 .section__twitchTextContainer {
   padding: 3rem; }
@@ -726,7 +726,7 @@ p {
 
 @media only screen and (max-width: 600px) {
   .containerCard {
-    transform: scale(0.67); } }
+    width: 100%; } }
 
 .footer {
   background: linear-gradient(rgba(48, 68, 39, 0.9), rgba(41, 73, 52, 0.9)), url(../img/fondo3.jpg);
@@ -829,7 +829,7 @@ button.btn.btn-link i {
 
 .header__tittle {
   color: #028b27;
-  font-size: 50px;
+  font-size: 3rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600; }

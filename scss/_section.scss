@@ -1,15 +1,10 @@
 /* Sections */
 
 
-
-/* Section About animated */
-
-
-
 /* Section */
 
 .section__container{
-  padding: 3rem 0rem;
+  padding: 3rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -39,7 +34,8 @@ transform:scale(1.05);
 /* Section Twitch*/
 
 .section__twitch{
-  width: 60%;
+  padding: 3rem;
+  text-align: center;
 }
 
 .section__twitchTextContainer{
