@@ -627,8 +627,7 @@ p {
   font-size: 100px;
   font-family: 'Sarala';
   font-weight: 700;
-  font-size: 21px;
-  transform: translateX(-34px); }
+  font-size: 21px; }
 
 .cardText {
   margin: 0;
