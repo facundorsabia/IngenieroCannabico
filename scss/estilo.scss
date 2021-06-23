@@ -61,7 +61,7 @@ ul{
 }
 
 a:hover {
-  color: #91c432;
+  color: #c0ca33;
   transform:scale(1.1,1.1);
   text-decoration: none;
 }
@@ -89,3 +89,8 @@ a:hover {
   .button:hover{
     transform:scale(1.1,1.1);
   }
+
+  .white:hover{
+    color:white;
+  }
+  
