@@ -1,10 +1,10 @@
 //IF
 
-$color: green;
+$color: rgb(0, 0, 0);
 
 p{
-    @if ($color == green) {
-        color:#013d04;
+    @if ($color == rgb(0, 0, 0)) {
+        color:#000000;
     } @else {
         color: black;
     }

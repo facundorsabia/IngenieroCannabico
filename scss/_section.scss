@@ -31,6 +31,19 @@ transform:scale(1.05);
   padding: 0.5em;
 }
 
+/* Section Bio*/
+
+.bio__tittle{
+  margin-bottom: 3rem;
+}
+.bio__text{
+  text-align: left;
+}
+
+.bio__img{
+  max-width: 73%;
+}
+
 /* Section Twitch*/
 
 .section__twitch{
@@ -55,7 +68,7 @@ transform:scale(1.05);
 
 .section__twitchText{
  text-align: center;
- color: #013d04;
+ color: #000000;
  font-size: 19px;
  font-family: "Liberation Mono", sans-serif;
  font-weight: 400;
@@ -143,3 +156,4 @@ font-size: 1.6rem;
  @extend .about__text ;
   font-weight: 600;
 }
+

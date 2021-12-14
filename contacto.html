@@ -20,7 +20,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <!-- Custom CSS -->
-        <link type="text/css" rel="stylesheet" href="css/estilo.css">
+        <link type="text/css" rel="stylesheet" href="scss/estilo.css">
     </head>
 
     <body>
@@ -59,26 +59,37 @@
         </div>
 
         <!-- Formulario de Inscripción-->  
-        <div class="container animate__animated animate__fadeInUp">
-            <form role="form"action="#" method="post" enctype="application/x-www-form-urlencoded">
-                <div class="form-group">
-                    <label for="nombre_apellido" class="input">Nombre Completo</label>
-                    <input class="form-control inputName" type="text" name="nombre_apellido" id="nombre_apellido"><br>
-                </div>
-                <div class="form-group">
-                    <label for="email" class="input">Email</label>
-                    <input class="form-control inputName" type="email" name="email" id="email"><br>
-                </div>
-                <div class="form-group">
-                    <label for="mensaje" class="input">Mensaje</label><br>
-                    <textarea class="form-control inputTex" name="mensaje" id="mensaje" rows="5" cols="30"></textarea><br>
-                </div>
-                <div class="form-group">
-                    <input class="button button-primary" type="submit" value="Enviar">
-                    <input class="button button-primary" type="reset" value="Borrar">
-                </div>
-            </form>
-        </div> 
+
+        <div class="row">
+            <div class="col-md-6 col-mx-12 section__textColumn wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                <form id="form" class="topBefore">
+                    <input id="name" type="text" placeholder="NOMBRE">
+                    <input id="email" type="text" placeholder="E-MAIL">
+                    <textarea id="message" type="text" placeholder="MENSAJE"></textarea>
+                    <input id="submit" type="submit" value="ENVIAR">
+                </form>
+            </div>
+            <div class="col-md-6 col-mx-12 section__imgColumn wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                <div class="direct-contact-container">
+                    <ul class="contact-list">
+                      <li class="list-item"><i class="fa fa-map-marker"><span class="contact-text place">Buenos Aires, Argentina</span></i></li>   
+                      <li class="list-item"><i class="fab fa-whatsapp"><span class="contact-text phone"><a href="https://wa.me/+541165144533" target="_blank">+54-1165144533</a></span></i></li>
+                      <li class="list-item"><i class="fa fa-envelope"><span class="contact-text gmail"><a href="mailto:maltz.rodrigo@gmail.com?Subject=Consulta%20desde%20la%20web" title="Send me an email">maltz.rodrigo@gmail.com</a></span></i></li>
+                    </ul>
+                    <hr>
+                    <ul class="social-media-list">
+                      <li><a href="https://www.instagram.com/ingeniero.cannabico/" target="_blank" class="contact-icon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      </li>
+                      <li><a href="https://www.linkedin.com/in/rodrigoezequielmaltz/" target="_blank" class="contact-icon">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                      </li>
+                      <li><a href="https://www.facebook.com/ingenierocannabico" target="_blank" class="contact-icon">
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      </li>     
+                    </ul>
+                  </div>
+            </div>
 
         <!-- Footer Start -->
         <footer class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top wow animate__animated animate__fadeInUp">
