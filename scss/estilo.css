@@ -623,6 +623,42 @@ p {
   font-weight: 600;
 }
 
+/* Swiper Slider Styles*/
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-button-prev {
+  color: green;
+}
+
+.swiper-button-next {
+  color: green;
+}
+
+/*Custom Modal*/
+.customModal {
+  top: 30%;
+}
+
+/*Custom Link*/
+.customLink {
+  cursor: pointer;
+}
+
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #000000;
   font-size: 0.875em;

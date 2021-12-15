@@ -1,3 +1,5 @@
+//To Top Button
+
 var btn = $('#button');
 
 $(window).scroll(function() {
@@ -49,13 +51,27 @@ jQuery(function($) {
 	adjustNav();
 });
 
-    // Initiate the wowjs
+// Initiate the wowjs
     new WOW().init();
 
 
-	//parallax2
+//Parallax2
 	var image = document.getElementsByClassName('capasuperior');
 	new simpleParallax(image, {
 		delay: .6,
 		transition: 'cubic-bezier(0,0,0,1)'
 	});
+
+//Carrousel Swiper
+
+var swiper = new Swiper(".mySwiper", {
+	effect: "flip",
+	grabCursor: true,
+	pagination: {
+	  el: ".swiper-pagination",
+	},
+	navigation: {
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
+	},
+  });
