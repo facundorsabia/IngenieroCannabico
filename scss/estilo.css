@@ -521,6 +521,11 @@ p {
   max-width: 73%;
 }
 
+.proyectos__text {
+  text-align: left;
+  margin-left: 1rem;
+}
+
 /* Section Twitch*/
 .section__twitch {
   padding: 3rem;
