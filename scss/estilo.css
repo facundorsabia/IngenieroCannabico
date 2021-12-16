@@ -422,6 +422,15 @@ p {
   }
 }
 
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.header__logo {
+  margin-bottom: 3rem;
+}
+
 /* Divider Arrow */
 .wrapper {
   padding-bottom: 30px;
