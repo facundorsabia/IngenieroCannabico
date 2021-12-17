@@ -44,11 +44,28 @@ transform:scale(1.05);
   max-width: 73%;
 }
 
+@media (max-width: 1024px) {
+  #bio__logo {
+    display: none;
+  }
+}
+
 .proyectos__text{
   text-align: left;
   margin-left: 1rem;
 }
 
+.asesoramiento__img{
+  margin-top:2rem;
+}
+
+.asesoramiento__title{
+  font-size: 2.6rem;
+}
+
+.logoverde{
+  width: 100%;
+}
 /* Section Twitch*/
 
 .section__twitch{

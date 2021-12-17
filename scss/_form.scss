@@ -77,14 +77,14 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 #form {
   position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width:100%;
+  margin: 30px 30px 30px 30px;
 }
 
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 470px;
+  width: 90%;
   height: 50px;
   padding: 0px 15px 0px 15px;
   
@@ -93,7 +93,7 @@ input {
   color: #726659;
   
   border: solid 1px #b3aca7;
-  border-bottom: none;
+
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -107,8 +107,7 @@ input:hover {
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
+  width:90%;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -133,6 +132,9 @@ textarea:hover {
   color: #e2dedb;
 }
 
+.contact__textarea{
+  width: 90%;
+}
 #submit {
   width: 502px;
   
@@ -336,3 +338,6 @@ hr {
   }
 }
 
+.newsletter{
+  font-size: 2rem;
+}

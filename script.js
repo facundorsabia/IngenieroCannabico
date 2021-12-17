@@ -62,6 +62,37 @@ jQuery(function($) {
 		transition: 'cubic-bezier(0,0,0,1)'
 	});
 
+
+
+
+//Contact Form
+
+const $form = document.querySelector("#form")
+
+$form.addEventListener("submit", handleSubmit);
+
+
+const $newsletterform = document.querySelector("#newsletterform")
+
+$newsletterform.addEventListener("submit", handleSubmit);
+
+async function handleSubmit(event){
+  event.preventDefault()
+  const form = new FormData(this)
+  const response = await fetch(this.action,{
+    method: this.method, 
+    body: form, 
+    headers: {
+      "Accept": "application/json"
+    }
+  })
+  if (response.ok){
+    this.reset()
+    console.log("Gracias por contactarme, te escribire pronto");
+  }
+}
+
+
 //Carrousel Swiper
 
 var swiper = new Swiper(".mySwiper", {
@@ -75,3 +106,5 @@ var swiper = new Swiper(".mySwiper", {
 	  prevEl: ".swiper-button-prev",
 	},
   });
+
+//No poner nada aqui debajo, todo debe estar arriba del carrousel ya que existe un error de consola
