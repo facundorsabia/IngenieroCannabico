@@ -166,31 +166,55 @@
                     <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
                     <p class="text-white">Registrate para recibir las últimas novedades, descuentos y promociones</p>
                     <div class="w-100">
+                        <form id="newsletterform"  action="https://formspree.io/f/xjvlvjrk" method="POST">
                         <div class="input-group">
-                            <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Email">
+                            <input type="email" name="_replyto" class="form-control border-light newsletter" style="padding: 25px;" placeholder="Email">
                             <div class="input-group-append">
-                                <button class="services__button btn btn-primary font-weight-bold px-3">Sign Up</button>
+                                <button  data-toggle="modal" data-target="#exampleModal3" type="submit" class="services__button btn btn-primary font-weight-bold px-3">Suscribirse</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade customModal" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Muchas gracias suscribirte!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Vas a recibir promociones y noticias sobre Ingeniero Cannabico!</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
                 <p class="footer__disclaimerText">Política de Ingeniero Cannábico: Los servicios y el contenido que proporciona Ingeniero Cannábico son con fines puramente educativos. La información dictada en los cursos está enmarcada en la Ley 27.360 y el Decreto reglamentario 883/20 Artículo 8. Los equipos, suministros y parafernalia que ofrecemos en la tienda están destinados para el cultivo en invernaderos, cultivo interior o exterior de especies vegetales habilitadas. No se venden semillas ni derivados del cannabis. El uso de los productos adquiridos en esta web es responsabilidad exclusivamente del cliente.</p>
                 <p class="mb-2 text-white footer__disclaimerText">Copyright &copy; <a class="font-weight-bold" href="#">Ingenierocannabico.com</a> Todos los derechos reservados.</a></p>
                 <p class="m-0 text-white footer__disclaimerText">Diseñado web por <a class="font-weight-bold" href="https://wa.me/+541167431598" target="_blank">Facundo Rodriguez Sabia</a></p>
-            </div>        
+            </div>          
         </footer>
 
         <!-- Back to Top Button-->
         <a id="button"></a>
 
         <!-- Scripts -->
-                <!-- Swiper Javascript Carrousel-->
-        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-                <!-- Jquery lib-->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-                <!-- Bootstrap lib-->
+            <!-- Jquery lib-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+       
+            <!-- Bootstrap lib-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
                 <!-- Wow lib-->
@@ -200,6 +224,6 @@
                 <!-- Parallax lib-->
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
                 <!-- Custom script-->
-        <script  src="./script.js"></script>
+        <script src="./script.js"></script>
     </body>
 </html>
