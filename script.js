@@ -63,6 +63,19 @@ jQuery(function($) {
 	});
 
 
+//Carrousel Swiper
+
+var swiper = new Swiper(".mySwiper", {
+	effect: "flip",
+	grabCursor: true,
+	pagination: {
+	  el: ".swiper-pagination",
+	},
+	navigation: {
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
+	},
+  });
 
 
 //Contact Form
@@ -71,8 +84,7 @@ const $form = document.querySelector("#form")
 
 $form.addEventListener("submit", handleSubmit);
 
-
-const $newsletterform = document.querySelector("#newsletterform")
+const $newsletterform = document.querySelector("#newsletterform");
 
 $newsletterform.addEventListener("submit", handleSubmit);
 
@@ -93,18 +105,5 @@ async function handleSubmit(event){
 }
 
 
-//Carrousel Swiper
-
-var swiper = new Swiper(".mySwiper", {
-	effect: "flip",
-	grabCursor: true,
-	pagination: {
-	  el: ".swiper-pagination",
-	},
-	navigation: {
-	  nextEl: ".swiper-button-next",
-	  prevEl: ".swiper-button-prev",
-	},
-  });
 
 //No poner nada aqui debajo, todo debe estar arriba del carrousel ya que existe un error de consola

@@ -542,6 +542,7 @@ p {
 
 .logoverde {
   width: 100%;
+  max-width: 500px;
 }
 
 /* Section Twitch*/
