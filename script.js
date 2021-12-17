@@ -90,6 +90,7 @@ async function handleSubmit(event){
 
 
 //Carrousel Swiper
+var Swiper;
 
 const swiper = new Swiper(".mySwiper", {
 	effect: "flip",
