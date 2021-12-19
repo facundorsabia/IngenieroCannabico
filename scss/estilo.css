@@ -594,6 +594,10 @@ p {
           flex: 1;
 }
 
+.mecha420__section {
+  text-align: center;
+}
+
 /* Section Main Services*/
 .services__container {
   padding: 2rem;
