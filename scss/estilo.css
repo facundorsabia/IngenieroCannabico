@@ -469,7 +469,6 @@ p {
   border-right: 1px solid #025f02;
 }
 
-/* Sections */
 /* Section */
 .section__container {
   padding: 3rem;
@@ -543,6 +542,14 @@ p {
 .logoverde {
   width: 100%;
   max-width: 500px;
+}
+
+.programaButton {
+  width: 80% !important;
+}
+
+.programa__img {
+  width: 100%;
 }
 
 /* Section Twitch*/
@@ -689,6 +696,17 @@ p {
 /*Custom Modal*/
 .customModal {
   top: 30%;
+}
+
+.customModalPrograma {
+  top: 10%;
+}
+
+@media (min-width: 1024px) {
+  .customModalDialog {
+    width: 175% !important;
+    left: -40%;
+  }
 }
 
 /*Custom Link*/

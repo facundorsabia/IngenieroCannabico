@@ -1,5 +1,3 @@
-/* Sections */
-
 
 /* Section */
 
@@ -67,6 +65,15 @@ transform:scale(1.05);
   width: 100%;
   max-width: 500px;
 }
+
+.programaButton{
+  width: 80%!important;
+}
+
+.programa__img{
+  width: 100%;
+}
+
 /* Section Twitch*/
 
 .section__twitch{
@@ -212,8 +219,20 @@ font-size: 1.6rem;
 }
 
 /*Custom Modal*/
+
 .customModal{
   top:30%;
+}
+
+.customModalPrograma{
+top:10%;
+}
+
+@media (min-width: 1024px) {
+  .customModalDialog{
+    width: 175%!important;
+    left: -40%;
+  }
 }
 
 /*Custom Link*/
