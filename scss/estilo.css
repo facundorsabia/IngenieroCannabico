@@ -12,8 +12,10 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  -webkit-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  transition: background-color .3s, 
+ opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
@@ -423,7 +425,7 @@ p {
 }
 
 .logo {
-  width: 300px;
+  width: 120px;
   height: auto;
 }
 
@@ -541,7 +543,7 @@ p {
 
 .logoverde {
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .programaButton {
@@ -1715,5 +1717,10 @@ a:hover {
   margin-right: none !important;
   width: 90%;
   padding-left: 3rem;
+}
+
+.study{
+  color: white;
+  transform: scale(1.5);
 }
 /*# sourceMappingURL=estilo.css.map */
