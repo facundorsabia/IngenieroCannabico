@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1"
+  }, 
+  "scripts": {
+    "build": "[my-framework] build --output public"
   }
 }
