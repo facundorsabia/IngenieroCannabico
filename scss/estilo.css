@@ -1578,6 +1578,10 @@ button.btn.btn-link i {
   color: #00a02b;
 }
 
+.header__text--span:hover {
+  color: #b6da54;
+}
+
 .capamedia {
   position: relative;
   height: 100vh;
@@ -1726,5 +1730,13 @@ a:hover {
 
 .datos{
   padding-left: 15px;
+}
+
+.div_prensa{
+  transform: translateY(50px);
+}
+
+.date{
+  text-align: end;
 }
 /*# sourceMappingURL=estilo.css.map */
