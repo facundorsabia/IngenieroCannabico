@@ -675,6 +675,14 @@ p {
   height: auto;
 }
 
+@media screen and (max-width: 850px) {
+  .swiper {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
