@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ingeniero Cannabico - Tienda</title>
+        <title>Ingeniero Cannabico - Inscripcion</title>
         <link rel="preload" as="image" href="img/fondo3.jpg">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -13,20 +13,22 @@
         <link rel="icon" href="img/favicon3.png" type="image/x-icon">
         <!-- Metacontent -->
         <meta content="cannabis, autocultivo, medicinal, cannabis medicinal, ingeniero, agronomo, " name="keywords">
-        <meta content="En esta tienda podés comprar productos relacionados al mundo del cannabis. No se venden productos ilegales." name="description">
+        <meta content="Los mejores cursos de autocultivo de cannabis medicinal dicatdos por un Ingeniero Agrónomo y experto en la materia." name="description">
         <!-- Animate Library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
         <!-- Custom CSS -->
         <link type="text/css" rel="stylesheet" href="scss/estilo.css">
     </head>
 
     <body>
-        <!-- Header & Nav -->
+    <!-- Header & Nav -->
         <header class="header-area2 overlay">
-            <nav class="navbar navbar-expand-lg navbar-dark animate__animated animate__fadeIn">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
                     <a href="index.html" class="navbar-brand"><img class="logo" src="img/logooficial.png"></a>
                     <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
@@ -34,21 +36,19 @@
                         <span class="menu-icon-bar"></span>
                         <span class="menu-icon-bar"></span>
                     </button>
+                    
                     <div id="main-nav" class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
                             <li><a href="index.html" class="nav-item nav-link">Inicio</a></li>
                             <li class="dropdown">
-                                <a href="capacitaciones.html" class="nav-item nav-link" data-toggle="dropdown">Cursos</a>
+                                <a href="capacitaciones.html" class="nav-item nav-link active" data-toggle="dropdown">Capacitaciones</a>
                                 <div class="dropdown-menu">
-                                    <a href="cursocultivoexterior.html" class="dropdown-item">Cultivo Exterior</a>
-                                    <a href="cursocultivoindoor.html" class="dropdown-item">Cultivo Indoor</a>
-                                    <a href="cursobreeding.html" class="dropdown-item">Breeding </a>
-                                    <a href="cursoplagas.html" class="dropdown-item">Manejo de Plagas</a>
-                                    <a href="cursocosecha.html" class="dropdown-item">Cosecha y Post Cosecha</a>
+                                    <a href="capacitaciones.html" class="dropdown-item">Cursos</a>
+                                    <a href="workshops.html" class="dropdown-item">Workshops</a>
+                                    <a href="asesoramiento.html" class="dropdown-item">Asesoramiento</a>
                                 </div>
                             </li>
-                            <li><a href="asesoramiento.html" class="nav-item nav-link">Servicios</a></li>
-                            <li><a href="tienda.html" class="nav-item nav-link active">Tienda</a></li>
+                            <li><a href="tienda.html" class="nav-item nav-link">Tienda</a></li>
                             <li><a href="sobremi.html" class="nav-item nav-link">Sobre Mi</a></li>
                             <li><a href="prensa.html" class="nav-item nav-link">Prensa</a></li>
                             <li><a href="contacto.html" class="nav-item nav-link">Contacto</a></li>
@@ -57,64 +57,113 @@
                 </div>
             </nav>
         </header>
-
         <div class="header__container">
             <div>
-                <!--<h2 class="header__tittle animate__animated animate__zoomIn">CONOCÉ NUESTROS PRODUCTOS</h2>-->
-                <section class="sectionFlex wow animate__animated animate__fadeInUp mecha420__section" data-wow-delay="0.8s">
-                    <div class="mecha420">
-                        <h2 class="header__tittle">Mecha420©</h2>
-                        <p>Les presentamos a Mecha420, diseñado y producido por <a class="header__text--span" href="https://www.instagram.com/ingeniero.cannabico/" target="_blank">@ingeniero.cannabico</a> y <a class="header__text--span" href="https://www.instagram.com/muy_picado/" target="_blank">@muy_picado</a></p>
-                        <p>Mecha420 tiene una doble función, es portaencendedor y portacigarro a la vez.</p>
-                        <p>Además ya nadie se va a quedar con tu encendedor sin querer, todos van a saber que el Mecha420 es tuyo.</p>
-                        <!--<a href="https://mecha420ar.mitiendanube.com/" target="_blank" class="button button-primary">Comprar</a>-->
-                    </div>
-                </section>
-            </div>
-        </div>
-    
-        <!-- Card 3D  -->
-        <div class="containerCard animate__animated animate__fadeInUp">
-            <div class="wrapperCard">
-                <div class="card3D">
-                    <div class="front">
-                        <h4 class="cardTittle">Mecha420©</h4>
-                    </div>
-                    <div class="right">
-                        <h4 class="cardTittle">Mecha420©</h4>
-                        <ul class="ulCard">
-                            <li class="liCard">Portaencendedor</li>
-                            <li class="liCard">Portacigarro</li>
-                            <li class="liCard">Identificable</li>
-                        </ul>
-                        <a class="white" href="https://mecha420ar.mitiendanube.com/" target="_blank"><button class="buttonCard">COMPRAR</button></a>
-                    </div>
-                </div> 
-                <div class="img-wrapper">
-                    <img src="img/mechatransparente.png" alt="product" class="cardImg" alt="foto mecha420">
-                </div>
+                <h2 class="header__tittle animate__animated animate__zoomIn" data-wow-duration = "2s">INSCRIPCION CURSO DE CULTIVO EXTERIOR</h2>
+                <p class="header__text">ARANCEL $7998</p>
+                <p class="header__text">La inscripción es realmente fácil, solamente seguí estos 2 pasos.</p>
             </div>
         </div>
 
-        <!-- Banner producto  -->
-        <div class="container section__container">
-            <div class="row">
-                <div class="col-md-4 col-mx-12 section__textColumn wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
-                    <img class="section__img" src="img/mecha1.png" alt="foto producto">
+       <!--Mis Servicios -->
+       <section class="container-fluid pt-5">
+        <div class="container">
+            <div class="row services__container">
+               <!-- <div class="col-lg-12 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.0s">
+                    <div class="row align-items-center">
+                        <div class="col-sm-3">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/cursos2.png" alt="cursos de autocultivo de cannabis medicinal">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="services__tittle"><img src="img/cannabisicon4.png">Paso 1 - Elegí el día y horario de cursada.</h4>
+                            <p class="m-0">Lunes de 18 a 20hs</p>
+                            <p class="m-0">Miércoles de 10 a 12hs</p>
+                            <p class="m-0">Los horarios corresponden a Buenos Aires, Argentina (GMT-3). Si estás en otro país, podés calcular el horario usando esta web: <a href="https://time.is/es/compare" target="_blank"><span class="header__text--span">Convertidor de horarios.</span></a></p>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-lg-12 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <div class="row align-items-center">
+                        <div class="col-sm-3">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/pago2.jpg" alt="asesoramiento sobre cannabis">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="services__tittle"><img src="img/cannabisicon4.png">Paso 1 - Realizá el pago</h4>
+                            <a href="https://mpago.la/1xoqvNi" target="_blank"><p class="m-0"><img src="img/creditcard2.png"><span class="header__text--span">3 cuotas sin interes de $2666  </span></a>  <a href="https://mpago.la/1xoqvNi" class="services__button btn btn-primary font-weight-bold py-2 px-4 mt-2" target="_blank">Pagar</a></p>
+                            <a class="customLink" data-toggle="modal" data-target="#exampleModal"><p class="m-0"><img src="img/bank.png"><span class="header__text--span">Transferencia [10% OFF] un pago de $7198 </span></a>  <a class="services__button btn btn-primary font-weight-bold py-2 px-4 mt-2" target="_blank"  data-toggle="modal" data-target="#exampleModal">Pagar</a></p>
+                            <a href="https://www.paypal.com/paypalme/rodrigomaltz" target="_blank"><p class="m-0"><img src="img/paypal.png"><span class="header__text--span">Internacionales U$D45 a través de PayPal   </span></a>  <a href="https://www.paypal.com/paypalme/rodrigomaltz" class="services__button btn btn-primary font-weight-bold py-2 px-4 mt-2" target="_blank">Pagar</a></p>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade customModal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Acá te dejamos los datos para la transferencia:</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Titular: Rodrigo Ezequiel Maltz</p>
+                                        <p>ALIAS: ing.agr.maltz</p>
+                                        <p>CBU: 0290066710000000833111</p>
+                                        <p>Monto a transferir por 1 persona:</p>
+                                        <p>$7198</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Modal 2-->
+                            <div class="modal fade customModal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Acá te dejamos los datos para la transferencia:</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Titular: Rodrigo Ezequiel Maltz</p>
+                                        <p>ALIAS: ing.agr.maltz</p>
+                                        <p>CBU: 0290066710000000833111</p>
+                                        <p>Monto a transferir por 1 persona:</p>
+                                        <p>1er cuota: $3958.-</p>
+                                        <p></p>2da. cuota a pagar antes del 1/8: $3958.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 col-mx-12 section__textColumn wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
-                    <img class="section__img" src="img/mecha3.png" alt="foto producto">
-                </div>
-                <div class="col-md-4 col-mx-12 section__textColumn wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
-                    <img class="section__img" src="img/mecha2.png" alt="foto producto">
+                <div class="col-lg-12 mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                    <div class="row align-items-center">
+                        <div class="col-sm-3">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/cogoshop.png" alt="tienda venta de productos cannabicos">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="services__tittle"><img src="img/cannabisicon4.png">Paso 2 - ¡Confirmá y listo!</h4>
+                            <p class="m-0">Confirmá tu inscripción enviándome un correo a <a href="mailto:cursoingenierocannabico@gmail.com?Subject=Consulta%20desde%20la%20web"><span class="header__text--span">cursoingenierocannabico@gmail.com</span></a> adjuntando el comprobante de pago y con la siguiente informacion:</p>
+                            <ol class="datos">
+                                <li>Nombre Completo</li>
+                                <li>Teléfono</li>
+                                <li>DNI</li>
+                                <!--<li>Horario Elegido</li>-->
+                            </ol> 
+                            <p>Y ¡Listo! ¡Bienvenide, ya estas adentro!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <section class="sectionFlex wow animate__animated animate__fadeInUp mecha420__section" data-wow-delay="0.8s">
-            <div class="mecha420">
-                <a href="https://mecha420ar.mitiendanube.com/" target="_blank" class="button button-primary">Comprar</a>
-            </div>
-        </section>
+    </section>
 
         <!-- Footer Start -->
         <footer class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top wow animate__animated animate__fadeInUp">
@@ -138,7 +187,7 @@
                 <div class="col-lg-3 col-md-6 mb-5">
                     <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Menú Rápido</h4>
                     <div>
-                        <p class="text-white"><a href="index.html">inicio</p>
+                        <p class="text-white"><a href="index.html">Inicio</p>
                         <p class="text-white"><a href="capacitaciones.html">Cursos</a></p>
                         <p class="text-white"><a href="asesoramiento.html">Asesoramiento</a></p>
                         <p class="text-white"><a href="tienda.html">Tienda</a></p>
@@ -147,6 +196,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
                     <p class="text-white">Registrate para recibir las últimas novedades, descuentos y promociones</p>
                     <div class="w-100">
                         <form id="newsletterform"  action="https://formspree.io/f/xjvlvjrk" method="POST">
