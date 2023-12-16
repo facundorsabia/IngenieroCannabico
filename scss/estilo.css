@@ -131,6 +131,9 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   border-bottom: solid 5px #025f02;
 }
 
@@ -142,6 +145,9 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   border-bottom: solid 5px #025f02;
 }
 
