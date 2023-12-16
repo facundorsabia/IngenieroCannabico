@@ -126,7 +126,7 @@ p {
 .header-area {
   position: relative;
   height: 100vh;
-  background-image: url("../img/fondo3.jpg");
+  background-image: url("../img/newback.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ p {
 .header-area2 {
   position: relative;
   height: 25vh;
-  background-image: url("../img/fondo3.jpg");
+  background-image: url("../img/newback.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1595,7 +1595,7 @@ button.btn.btn-link i {
 .capamedia {
   position: relative;
   height: 100vh;
-  background-image: url("../img/capamedia.png");
+  /*background-image: url("../img/capamedia.png");*/
   background-attachment: fixed;
   border-bottom: solid 5px #025f02;
   background-position: center center;
@@ -1610,7 +1610,7 @@ button.btn.btn-link i {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url("../img/capasuperior.png");
+  /*background-image: url("../img/capasuperior.png");*/
   border-bottom: solid 5px #025f02;
   background-position: center center;
   background-repeat: no-repeat;
