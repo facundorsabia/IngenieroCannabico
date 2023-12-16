@@ -88,6 +88,19 @@ async function handleSubmit(event){
   }
 }
 
+//Textos y enlaces dinámicos
+
+document.addEventListener('DOMContentLoaded', function () {
+	// Cambiar el texto del enlace
+	document.getElementById('designer').innerText = 'ModernWeb CreativeLabs Agency';
+
+	// Cambiar el enlace (href)
+	document.getElementById('designer').href = 'https://www.modernwebagency.com.ar/';
+
+	// Puedes hacer lo mismo para cambiar el texto del párrafo si es necesario
+	// document.getElementById('copyrightText').innerText = 'Nuevo Texto del Párrafo';
+	});
+
 
 //Carrousel Swiper
 var Swiper;
