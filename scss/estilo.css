@@ -321,6 +321,14 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .header-area {
+    background-attachment: scroll;
+  }
+
+  .header-area2 {
+    background-attachment: scroll;
+  }
+
   .navbar-brand {
     margin-left: 20px;
   }
