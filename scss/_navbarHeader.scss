@@ -109,6 +109,12 @@ p {
   min-height: 700px;
 }
 
+@media (max-width: 768px) {
+  .header-area3 {
+    background-attachment: scroll;
+  }
+}
+
 .banner {
   display: flex;
   align-items: center;
