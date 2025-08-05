@@ -96,6 +96,19 @@ p {
   background-size: cover;
   border-bottom: solid 5px  rgb(2, 95, 2);
 }
+
+.header-area3 {
+  position: relative;
+  height: 25vh;
+  background-image: url("../img/ingenieriacannabica.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 5px  rgb(2, 95, 2);
+  min-height: 700px;
+}
+
 .banner {
   display: flex;
   align-items: center;
