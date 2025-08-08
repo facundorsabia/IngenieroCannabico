@@ -279,6 +279,9 @@ top:10%;
 .grey-bg p {
   line-height: 4rem;
   font-size: 1.8rem;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .grey-bg ul {
@@ -370,6 +373,28 @@ top:10%;
 
 .green-bg {
   background-color:#92cd4d;
+
+  .logo {
+    height: 80px;
+    width: auto;
+
+    @media (max-width: 786px) {
+      height: 60px;
+      padding: 0.8rem;
+    }
+  }
+
+  h3 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(212, 212, 212, 0.5);
+    padding-bottom: 2rem;
+    color: rgb(0, 0, 0);
+    @media (max-width: 1024px) {
+      font-size: 1.8rem;
+    }
+  }
 }
 
 .green-bg ul {
@@ -383,8 +408,34 @@ top:10%;
     position: relative;
     padding-left: 1.5em;
     margin-bottom: 0.6em;
+
+    @media (max-width: 786px) {
+      padding-left: 0;
+      font-size: 1.5rem;
+    }
   }
 }
+
+.green-bg ol {
+  margin-left: 10%;
+  color: black;
+  padding-left: 0;
+  text-align: left;
+
+  li {
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 0.6em;
+    @media (max-width: 786px) {
+      padding-left: 0;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+
 
 .texture-img {
   width: 200px;
