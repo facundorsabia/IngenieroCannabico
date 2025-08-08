@@ -293,6 +293,9 @@ top:10%;
     position: relative;
     padding-left: 1.5em;
     margin-bottom: 0.6em;
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -339,12 +342,20 @@ top:10%;
 .blue-bg img {
   max-height: 300px;
   width: auto;
+
+ @media (max-width: 768px) {
+     max-height: 230px;
+  }
 }
 
 .blue-bg p, .blue-bg ul {
   color: white;
   margin: 2rem 0;
   font-size: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .blue-bg ul {
@@ -354,6 +365,12 @@ top:10%;
 .blue-bg a {
   margin: auto;
   margin-top: 8%;
+}
+
+.blue-bg li {
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .list-icon {
@@ -391,7 +408,7 @@ top:10%;
     text-shadow: 2px 2px 4px rgba(212, 212, 212, 0.5);
     padding-bottom: 2rem;
     color: rgb(0, 0, 0);
-    @media (max-width: 1024px) {
+    @media (max-width: 768px) {
       font-size: 1.8rem;
     }
   }
@@ -475,3 +492,10 @@ top:10%;
     display: none;
   }
 }
+
+  .mobile-container {
+    @media (max-width: 768px) {
+      position: relative;
+      left: -50px;
+    }
+  }
