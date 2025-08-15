@@ -195,6 +195,11 @@ p {
   font-family: "Anton", sans-serif;
   font-size: 2.5rem;
 }
+@media (max-width: 768px) {
+  .navbar .navbar-brand {
+    font-size: 2rem;
+  }
+}
 
 .navbar .navbar-toggler {
   position: relative;
@@ -383,6 +388,11 @@ p {
   width: 170px;
   height: auto;
 }
+@media (max-width: 786px) {
+  .logo {
+    width: 100px;
+  }
+}
 
 .header__logo {
   margin-bottom: 3rem;
@@ -486,6 +496,11 @@ p {
 .logoverde {
   width: 100%;
   max-width: 300px;
+}
+@media (max-width: 786px) {
+  .logoverde {
+    width: 150px;
+  }
 }
 
 .programaButton {
@@ -868,7 +883,7 @@ p {
 @media (max-width: 786px) {
   .green-bg ol li {
     padding-left: 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 

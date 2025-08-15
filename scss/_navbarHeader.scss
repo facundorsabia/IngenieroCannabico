@@ -152,6 +152,10 @@ p {
 .navbar .navbar-brand {
   font-family: 'Anton', sans-serif;
   font-size: 2.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 .navbar .navbar-toggler {
   position: relative;
@@ -372,6 +376,10 @@ p {
 .logo{
   width:170px;
   height: auto;
+
+  @media (max-width: 786px) {
+    width:100px;
+  }
 }
 
 .header__logo{

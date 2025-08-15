@@ -64,6 +64,10 @@ transform:scale(1.05);
 .logoverde{
   width: 100%;
   max-width: 300px;
+
+  @media (max-width: 786px) {
+    width:150px;
+  }
 }
 
 .programaButton{
@@ -447,7 +451,7 @@ top:10%;
     margin-bottom: 0.6em;
     @media (max-width: 786px) {
       padding-left: 0;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
 }
